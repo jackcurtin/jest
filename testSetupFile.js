@@ -11,3 +11,5 @@ jest.setTimeout(70000);
 
 // this module does some funky stuff with `require.cache`, flooding the terminal with output
 jest.mock('stealthy-require', () => (_, m) => m());
+
+// added note to test using github - sorry!
